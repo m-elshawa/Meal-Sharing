@@ -16,23 +16,17 @@ router.get("/", async (request, response) => {
 });
 
 // api/meals/ POST [donno how to do it]
-// router.post ('/', (req,res) => {
+router.post('/', async (req, res) => {
+  const postData = req.body;
 
-//   try {
-//     const newMeal = knex("meals").insert({
-//       id: 6,
-//       title: "Sushi",
-//       description:"The most popular dish in Asian Cuisine",
-//       location: "China"})
-//       res.json(newMeal)
-//   } catch (error) {
-//     throw error;
-//   }
-// });
+  try {
+    const ids = await knex('meals').insert(postData);
+    res.status(201).json(ids);
+  } catch (err) {
+    res.status(500).json({message: "Error creating new post", error: err})
+  }
 
-    
-
-  
+});
 
 
 // api/meals/{id} GET
@@ -50,7 +44,7 @@ router.get("/:id", async (req, res) => {
 // api/meals/id PUT
 router.put("/:id", async (req,res) => {
   try{
-    const updatedMeal = await knex("meals").where({id: 3}).update({price: 25});
+    const updatedMeal = await knex("meals").where({id: 25}).update({title: "Chicken Masala"});
     res.json(updatedMeal);
 
   } catch (error) {
