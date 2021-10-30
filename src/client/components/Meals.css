@@ -1,0 +1,21 @@
+/* .the-meals {
+    background-color: cadetblue;
+    display:inline;
+    
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-span: all;
+    flex-wrap: wrap;
+} */
+
+/* /title {
+    font-size: 20px;;
+} */
+/* .each-meal {
+    display:flex;
+    flex-wrap: wrap;
+ 
+    background-color: yellowgreen;
+    border-width: 10px ;
+} */

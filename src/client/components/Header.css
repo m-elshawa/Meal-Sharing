@@ -1,0 +1,86 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: blueviolet;
+    border: brown;
+    border-radius: 10px;
+    border-width: 20px;
+    padding: 5px;
+    align-items: center;
+    /* min-height: 10vh; */
+    color: white;
+    font-size: 15px;
+  }
+
+ .input-header {
+      border-radius: 10px;
+  }
+
+.btn1 {
+    border-radius: 2em;
+    transition: all 0.2s;
+    margin:0 0.3em 0.3em 0;
+    background-color: white;
+    text-align:center;
+    
+
+  }
+
+  /* .home, .meals, .about, .test {
+    text-decoration:none;
+    color: aliceblue;
+    transition: all .3s ease-in-out;
+    box-shadow: rgb(126, 126, 228);
+    
+  } */
+  
+  .btn-nav:hover {opacity: 1}
+  .btn1:hover {opacity: 1}
+
+  .btn-nav {
+    border-width: 2px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    /* text-decoration: none; */
+    cursor: pointer;
+  }
+/* .Navbar {
+      display: flex;
+      
+      font-family: cursive;
+      
+      background-color: rgb(235, 236, 221);
+      list-style: none;
+      list-style-type: none;
+      color: red;
+  } */
+
+.Navbar button {
+  background-color: rgb(210, 181, 238);
+  border-radius: 30%;
+  color: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.logo0 {
+  width: 10px;
+}
+
+.logo {
+  width: 80px;
+    /* width: 50%;
+    height: 50%; */
+    size: 50%;
+    border-radius: 50%;
+  }

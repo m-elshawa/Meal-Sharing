@@ -1,3 +1,8 @@
 section.test-component {
-  color: green;
+  color: rgb(231, 16, 16);
+}
+
+
+.btn {
+  color: silver;
 }

@@ -1,3 +1,30 @@
-* {
-    box-sizing: border-box;
+/* * {
+    box-sizing: content-box;
+} */
+
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
+aside {
+  float: left; 
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.aside-h1 h1 {
+  font-size: 30px;
+}
+
+.aside-h1 p {
+  font-size: 20px;
+}
+.middle img {
+    float: right;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+  }
+  
+
