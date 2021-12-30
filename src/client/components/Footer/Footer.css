@@ -1,0 +1,15 @@
+div.footer {
+    background-color:blueviolet;
+    padding-top: auto;
+    border-radius: 10px;
+  }
+
+
+  .contacts {
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 20px;
+
+  }

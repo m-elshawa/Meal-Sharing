@@ -1,5 +1,5 @@
 import React from "react";
-import "./Meals.css";
+import "./Meal.css";
 
 
 export default function Meal(props) {

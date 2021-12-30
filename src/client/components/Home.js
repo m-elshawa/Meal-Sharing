@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import foodTable from '../assets/images/foodTable.png'
 // import "./testComponentStyle.css";
 
 export default function Home() {
@@ -18,13 +19,8 @@ export default function Home() {
       </aside>
 
       <div className="middle">
-        <img
-          src="https://thumbs.dreamstime.com/b/big-family-dinner-vertical-top-view-served-table-hands-w-clinking-goblets-121321711.jpg"
-          alt="Share your food experience"
-          // width="100%"
-          // height="100"
-        />
-        {/* <p>Koshary: The National Egyptian Dish</p> */}
+        <img src={foodTable} alt="home" className="heroFoto" />
+       
       </div>
     </section>
   );

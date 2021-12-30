@@ -1,0 +1,10 @@
+.the-meals {
+    background-color: cadetblue;
+    display:inline;
+    align-items: center;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-span: all;
+    flex-wrap: wrap;
+}

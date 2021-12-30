@@ -1,8 +1,71 @@
 section.test-component {
-  color: rgb(231, 16, 16);
+  color: rgb(248, 244, 252);
+align-items: center;
+margin-left: 40px;
+}
+
+.headers {
+  color: blueviolet;
+  text-align: center;
 }
 
 
-.btn {
-  color: silver;
+.btnForm {
+  justify-content: center;
+  padding: 10px;
+  position: absolute;
+  background-color: blueviolet;
+  color: rgb(240, 238, 247);
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 30%;
+  transition-duration: 0.4s;
+}
+
+.btnForm:hover {
+  background-color:rgb(232, 231, 241);
+  color:rgb(160, 99, 230);
+  font-size: 15px;
+  opacity: 1;
+  
+}
+
+.formPage {
+  display: flex;
+}
+
+.formFoto {
+   
+   width: 750px;
+   height: 450px;
+   /* justify-content: right; */
+   padding: 30px;
+   border-radius: 10%;
+}
+
+.theForm {
+  height: 450px;
+  margin-top: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: blueviolet;
+  border-radius: 10%;
+}
+
+.input {
+  align-items: center;
+  
+}
+
+.inputBox {
+  display: block;
+  padding: 5px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  padding-right: 30px;
 }

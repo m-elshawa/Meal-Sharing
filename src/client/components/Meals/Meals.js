@@ -1,6 +1,6 @@
 import React, {useState, UseEffect} from "react";
-import Meal from "./Meal"
-import {Context} from "./Context";
+import Meal from "../Meal/Meal"
+import {Context} from "../Context";
 import "./Meals.css"
 
 export default function Meals () {

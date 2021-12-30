@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/logo.png";
-import {Context} from "./Context";
+import logo from "../../assets/images/logo.png";
+import {Context} from "../Context";
 
 export default function Header() {
   const headerContext = React.useContext(Context);
@@ -51,14 +51,14 @@ export default function Header() {
               // value={headerContext.searchValue}
               placeholder="Search Meals.."
             ></input>
-            {/* <button
+            <button
               className="btn1"
              
               
               onClick={handleSubmit}
             >
               Search
-            </button> */}
+            </button>
           </div>
         </div>
       </nav>
