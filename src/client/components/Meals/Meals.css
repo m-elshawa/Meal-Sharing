@@ -12,10 +12,13 @@
 /* /title {
     font-size: 20px;;
 } */
-/* .each-meal {
-    display:flex;
-    flex-wrap: wrap;
- 
-    background-color: yellowgreen;
-    border-width: 10px ;
-} */
+.each-meal {
+    align-content: center;
+    padding-left: 60px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: cursive;
+    color: blueviolet;
+}

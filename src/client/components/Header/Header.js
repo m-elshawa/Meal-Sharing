@@ -20,9 +20,9 @@ export default function Header() {
     <section className="Header">
       <nav className="nav">
         <NavLink to="/home" className="home-button">
-          <a href="" className="logo0">
+          <Link to="/" className="logo0">
             <img className="logo" src={logo} alt="Meal Sharing Homepage" />
-          </a>
+          </Link>
         </NavLink>
         <h1>Meal Sharing for food lovers</h1>
         <div className="Navbar">
@@ -34,12 +34,8 @@ export default function Header() {
             <button className="btn-nav">Meals</button>
           </Link>
 
-          <Link to="/about" className="about">
-            <button className="btn-nav">About</button>
-          </Link>
-
-          <Link to="/test-Component" className="testme">
-            <button className="btn-nav">Test</button>
+          <Link to="/add-meal" className="addmeal">
+            <button className="btn-nav">Add Meal</button>
           </Link>
         </div>
         <div>

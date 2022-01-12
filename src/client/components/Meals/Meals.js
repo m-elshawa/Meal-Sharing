@@ -17,9 +17,9 @@ React.useEffect(() =>
 
 ) 
 return <div>
-    <h3>my meals</h3>
+    <h1 className="h1">Find your favorite meal</h1>
     <div className="each-meal">
-    {meals.map((meal) => <Meal key={meal.id} title={meal.title} price={meal.price} location={meal.location} description={meal.description} />)}
+    {meals.map((meal) => <Meal img={meal.Photo} key={meal.id} title={meal.title} price={meal.price} location={meal.location} description={meal.description} />)}
     </div>
     
 </div>

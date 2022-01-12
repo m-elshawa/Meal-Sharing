@@ -27,4 +27,17 @@ aside {
     padding: 100px;
   }
   
+  .carousel h1 {
+    font-family: cursive;
+    color: blueviolet;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .carousel {
+    padding-bottom: 20px;
+  }
+  /* .prevBtn {
+    display: flex;
+  } */
 

@@ -8,8 +8,31 @@ div.footer {
   .contacts {
     list-style-type: none;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 10px;
     font-family: cursive;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 200px;
+    display: inline-block;
 
   }
+
+  .icons {
+    padding: 30px;
+    padding-left: 200px;
+    color: aliceblue;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+  /* top: 150px; */
+  }
+
+.fb, .in, .gh {
+  margin-left: 30px;
+  color: aliceblue;
+}
+
+a:hover {
+  color:brown;
+  transition: all 0.2s;
+}

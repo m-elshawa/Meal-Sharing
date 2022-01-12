@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import TestComponent from "./components/TestComponent/TestComponent";
+import {AddMeal} from "./components/AddMeal/AddMeal";
 import Meals from "./components/Meals/Meals";
 import Footer from "./components/Footer/Footer";
 import { Context, ContextProvider } from "./components/Context";
@@ -30,12 +29,10 @@ function App() {
         <Route exact path="/meals/:id">
           <p> ID:1 Koshary </p>
         </Route>
-        <Route exact path="/test-component">
-          <TestComponent />
+        <Route exact path="/add-meal">
+          <AddMeal />
         </Route>
-        <Route exact path="/About">
-          <About />
-        </Route>
+
         <Footer />
       </Router>
     </ContextProvider>

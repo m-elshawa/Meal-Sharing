@@ -26,14 +26,7 @@
 
   }
 
-  /* .home, .meals, .about, .test {
-    text-decoration:none;
-    color: aliceblue;
-    transition: all .3s ease-in-out;
-    box-shadow: rgb(126, 126, 228);
-    
-  } */
-  
+ 
   .btn-nav:hover {opacity: 1}
   .btn1:hover {opacity: 1}
 
@@ -52,16 +45,7 @@
     /* text-decoration: none; */
     cursor: pointer;
   }
-/* .Navbar {
-      display: flex;
-      
-      font-family: cursive;
-      
-      background-color: rgb(235, 236, 221);
-      list-style: none;
-      list-style-type: none;
-      color: red;
-  } */
+
 
 .Navbar button {
   background-color: rgb(210, 181, 238);

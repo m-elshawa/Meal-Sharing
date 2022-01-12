@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Footer.css";
-// import "./testComponentStyle.css";
+import { Link, NavLink } from "react-router-dom";
+import {TiSocialFacebook} from 'react-icons/ti'; 
+import {TiSocialLinkedin} from 'react-icons/ti';
+import {TiSocialGithub} from 'react-icons/ti';
 
 function Footer() {
     document.title = 'Homepage-Meal Sharing App';
@@ -13,6 +16,15 @@ function Footer() {
     <div className="footer">
       <div className="contacts">
       {contactsList}
+      </div>
+      <div className="icons">
+        <a href="https://www.facebook.com/mohamed.mazen.58/" className="fb"><TiSocialFacebook/></a>
+        <a href="https://www.linkedin.com/in/mmelshawa/" className="in"><TiSocialLinkedin/></a>
+        <a href="https://github.com/m-elshawa" className="gh"><TiSocialGithub/></a>
+        
+        
+        
+        
       </div>
 
   </div>
